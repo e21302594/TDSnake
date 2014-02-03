@@ -5,7 +5,7 @@ public interface Constantes {
 	/** 
      * nombre de colonnes de la surface de jeu 
      */
-    public final static int NBRE_DE_COLONNES = 30;
+    public final static int NBRE_DE_COLONNES = 30; 
     
     /** 
      * nombre de lignes de la surface de jeu 

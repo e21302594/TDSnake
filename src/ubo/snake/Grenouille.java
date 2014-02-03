@@ -11,18 +11,22 @@ public class Grenouille extends Case {
 
 	private int angle;
 
+	// Constructeur de l'objet grenouille avec coordonnées aléatoires
 	public Grenouille() {
 		super(getRandomX(), getRandomY());
 	}
 
+	// Récupérer un nombre aléatoire en abscisse
 	private static int getRandomX() {
 		return RND.nextInt(NBRE_DE_COLONNES);
 	}
 
+	// Récupérer un nombre aléatoire en ordonnée
 	private static int getRandomY() {
 		return RND.nextInt(NBRE_DE_LIGNES);
 	}
 
+	// Placer une nouvelle grenouille avec des coordoonées aléatoires
 	public void nouvelleGrenouille() {
 		setIndiceX(getRandomX());
 		setIndiceY(getRandomY());
