@@ -31,7 +31,9 @@ public class Grenouille extends Case {
 
 	public void calcul() {
 		// incrémentation de l'angle de 4 degrés
+		int old_angle=angle;
 		this.angle += 4;
+		assert old_angle==angle+4 : "Probleme d'incrementation de l'angle";
 	}
 
 	public void affichage(Graphics g) {
